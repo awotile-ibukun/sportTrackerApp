@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+    background-color: #9CA3AF;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#34D399,#1B244A, #34D399);
+    width: 450px;
+    height: 350px;
+    margin: 30px auto;
+    border: 6px solid whitesmoke;
+    border-radius: 6px;
+
+
+}
+.score-header{
+    color: white;
+    font-weight: 900;
+    
+    font-size: 30px;
+    text-shadow: 0px 0px 2px black;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.score-display{
+ border: 1px solid whitesmoke;
+ font-family: Cursed Timer ULiL;
+ font-style: regular;
+ font-weight: 400;
+ border-radius: 4px;
+ width: 140px;
+ height: 100px;
+ margin: 1px auto 20px auto;
+color: #E11D48;
+display: flex;
+justify-content: center;
+align-items: center;
+ font-size: 60px; 
+ background-color: #0c0608;
+}
+.score-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+    background-color: none;
+   
+}
+button{
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background: none;
+    padding: 5px;
+    color: white;
+     text-shadow: 1px 1px 1px red;
+}
+
+.save-div{
+    display: flex;
+    justify-content: center;
+}
+.save-btn{
+    background-color: green;
+    
+   
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    
+}
+.save-btn:hover{
+  
+   transform: scale(1.1); /* slight zoom effect */
+    
+}
